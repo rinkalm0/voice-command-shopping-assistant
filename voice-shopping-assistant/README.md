@@ -1,16 +1,53 @@
-# React + Vite
+# Voice-Command-Shopping-Assistant
+## Overview
+The Voice Command Shopping Assistant is a voice-based shopping list manager that enhances user convenience with smart suggestions. It enables users to add, remove, and search for items via voice commands while providing personalized recommendations based on shopping history and seasonal trends.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Features
 
-Currently, two official plugins are available:
+### 🎤 Voice Input
+- Add items using voice commands (e.g., “Add milk”, “I need apples”).
+- NLP processing to understand varied phrasing.
+- Multilingual support for global users.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🧠 Smart Suggestions
+- Recommends items based on past shopping history.
+- Seasonal product suggestions.
+- Suggests substitutes when certain items are unavailable.
 
-## React Compiler
+### 🛒 Shopping List Management
+- Add, remove, or modify items using voice.
+- Automatic item categorization (e.g., Dairy, Produce, Snacks).
+- Quantity handling (e.g., “Add 2 bottles of water”).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔍 Voice-Activated Search
+- Search items via voice, including brand, size, and price.
+- Voice-based filters such as “Under $10” or “Organic brand only”.
 
-## Expanding the ESLint configuration
+### 🎨 UI/UX
+- Simple, clean, mobile-friendly interface.
+- Real-time display of recognized commands and added items.
+- Supports voice-only interaction patterns.
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack (Example — replace with your actual stack)
+- **Frontend:** Reactjs , Tailwind Css
+- **Backend:** Node.js 
+- **Speech-to-Text:** Google Speech API / Web Speech API 
+- **Hosting:**  Vercel 
+
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+# Clone repository
+git clone <https://github.com/rinkalm0/voice-command-shopping-assistant.git>
+cd <voice-shopping-assistant>
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
